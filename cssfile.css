@@ -1,0 +1,36 @@
+.container{
+    margin: 10px;
+    border-radius: 3cm;
+    border-color: black;
+    justify-content: center;
+    
+    
+}
+#cantain{
+    margin-top: 1%;
+    border-style: dashed;
+    background-color: rgb(216, 97, 97);
+}
+#project{
+    border-style: dashed;
+    max-zoom: 50%;
+}
+.main{
+    border: 1ch;
+    border-style: solid;
+    height: auto;
+    width: block;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.item{
+    height: 200px;
+    width: 350px;
+    border-style: solid;
+    margin-left: 01%;
+    margin-top: 01%;
+    margin-bottom: 01%;
+}
+

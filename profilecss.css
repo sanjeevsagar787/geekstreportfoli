@@ -1,0 +1,218 @@
+.nav{
+    position: fixed;
+    height: 35px;
+    width: 100%;
+    width: block;
+    display: flex;
+    justify-content: center;
+    background-color: aqua;
+    border-radius: 4px;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#box{
+    margin-left: 8px;
+    margin-right: 8px;
+    
+}
+.main{
+    height: 300px;
+    background-color:#e3eaa7;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+.img{
+    background-color: bisque;
+    display: flex;
+    height: 250px;
+    width: 200px;
+    margin-left: 10px;
+    border-radius: 10px;
+    flex-wrap: wrap;
+}
+.video{
+    background-color: #fff;
+    display: flex;
+    height: 250px;
+    width: 400px;
+    margin-right: 0px;
+}
+.about{
+    background-color: #e3eaa7;
+    height: 250px;
+    width: 600px;
+    margin-right: 8px;
+    border-radius: 5px;
+}
+#para{
+    align-items: center;
+    margin-left: 8px;
+    justify-content: center;
+}
+.heading{
+    text-align: center;
+    color: rgb(22, 16, 27);
+    font-style: italic;
+    background-color: rgb(88, 60, 163);
+    height: 50px;
+}
+* {box-sizing:border-box}
+
+/* Container for skill bars */
+.container {
+    margin-left: 15%;
+  width: 70%; /* Full width */
+  background-color: rgb(201, 196, 196); /* Grey background */
+}
+
+.skills {
+  text-align: right; /* Right-align text */
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 10px; /* Add bottom padding */
+  color: white; /* White text color */
+}
+
+.html {width: 90%; background-color: #04AA6D;} /* Green */
+.css {width: 80%; background-color: #2196F3;} /* Blue */
+.js {width: 65%; background-color: #f44336;} /* Red */
+.php {width: 80%; background-color: #808080;} /* Dark Grey */
+.project{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+#imgs {
+    border-radius: 70%;
+  }
+.p-1{
+    height: 200px;
+    width: 400px;
+    background-color: blue;
+    margin-top: 10px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: black;
+    
+
+}
+.p-2{
+    height: 200px;
+    width: 400px;
+    background-color: blue;
+    margin-top: 10px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: black;
+
+}
+.p-3{
+    height: 200px;
+    width: 400px;
+    background-color: blue;
+    margin-top: 10px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: black;
+}
+.p-4{
+    height: 200px;
+    width: 400px;
+    background-color: blue;
+    margin-top: 10px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: black;
+}
+.p-5{
+    height: 200px;
+    width: 400px;
+    background-color: blue;
+    margin-top: 10px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: black;
+
+}
+.p-6{
+    height: 200px;
+    width: 400px;
+    background-color: blue;
+    margin-top: 10px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: black;
+}
+.skills{
+    display: flex;
+    flex-direction: column;
+    
+}
+.set-1{
+    background-color: rgb(236, 114, 114);
+    margin: 10px;   
+    width: 80%;
+    height: 40px;
+    justify-items: last baseline;
+}
+.set-2{
+    background-color: rgb(236, 114, 114);
+    margin: 10px;   
+    width: 60%;
+    height: 40px;
+}
+.set-3{
+    background-color: rgb(236, 114, 114);
+    margin: 10px;   
+    width: 85%;
+    height: 40px;
+}
+.set-4{
+    background-color: rgb(236, 114, 114);
+    margin: 10px;   
+    width: 95%;
+    height: 40px;
+}
+.set-5{
+    background-color: rgb(236, 114, 114);
+    margin: 10px;   
+    width: 60%;
+    height: 40px;
+}
+.set-6{
+    background-color: rgb(236, 114, 114);
+    margin: 10px;   
+    width: 90%;
+    height: 40px;
+}
+.gallery{
+    margin-left: 70px;
+    display: flex;
+    justify-content: stretch;
+    flex-wrap: wrap;
+    justify-items: center;
+}
+.photo{
+    justify-items: center;
+    border-style: solid;
+    border-color: #f44336;
+    margin: 10px;
+    height: 200px;
+    width: 180px;
+    
+}
+#img{
+    align-items: center;
+    margin: 12px;
+    border-image: 2px;
+    
+}
+figcaption{
+    margin-top: -5%;
+    text-align: center;
+}
